@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Finder</title>
+  <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-primary mb-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">GitHub Finder</a>
+    </div>
+  </nav>
+  <div class="container searchContainer">
+    <div class="card card-body">
+      <h1>GitHub 사용자를 검색해보세요</h1>
+      <p class="lead">사용자 이름을 입력하고 프로필과 저장소를 찾아보세요.</p>
+      <input type="text" id="searchUser" class="form-control" placeholder="GitHub 사용자 이름...">
+    </div>
+    <br>
+    <div id="profile"></div>
+  </div>
+
+  <footer class="mt-5 p-3 text-center bg-light">
+    &copy; GitHub Finder
+  </footer>
+  
+  <script src="js/env.js"></script>
+  <script src="js/github.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html> 
