@@ -1,0 +1,5 @@
+# environment variables for github api
+js/env.js
+
+# misc
+.DS_Store
